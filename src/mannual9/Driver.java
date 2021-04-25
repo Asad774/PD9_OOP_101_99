@@ -46,6 +46,7 @@ public class Driver {
         
         switch(option)
         {
+
             case "1":
                 JOptionPane.showMessageDialog(null,"Total Words in the Sentence : "+a.Words_Counter(input));
                 break;
@@ -54,10 +55,31 @@ public class Driver {
                 break;
             case "3":
                  JOptionPane.showMessageDialog(null,"Total Punctuations in the Sentence : "+a.puncCount(input));
+
+            case 1:
+                int e=a.wordCounter(input);
+                JOptionPane.showMessageDialog(null,"There are "+e+" number of words","Number of words",1);
+                break;
+            case 2:
+                int f = a.vowelcounter(input);
+                JOptionPane.showMessageDialog(null,"There are "+f+" number of vowels","Number of vowels",1);
+                break;
+            case 3:
+                int g = a.puncCount(input);
+                JOptionPane.showMessageDialog(null,"There are "+g+" number of punctuations","Number of punctuations",1);
+
                 break;
             case "4":
                 String sub = JOptionPane.showInputDialog("Enter the sub String:");
-                a.findSubString(input, sub);
+                boolean h = a.findSubString(input, sub);
+                if(h==true)
+                {
+                      JOptionPane.showMessageDialog(null,"\""+sub+"\""+" is present in the String.","Finding",1);
+                }
+                else
+                {
+                      JOptionPane.showMessageDialog(null,"\""+sub+"\""+" is nt present in the String.","Finding",1);
+                }
                 break;
             case "5":
                 b.displayVertical(input);
@@ -68,6 +90,7 @@ public class Driver {
             case "7":
                 JOptionPane.showMessageDialog(null,"Sentence without Integers is : "+c.removeInteger(input));
                 break;
+
             case "8":
                 JOptionPane.showMessageDialog(null,"Sentence in Encrypted Form is : "+c.Encryptor(input));
                 break;
@@ -92,6 +115,28 @@ public class Driver {
                 break;
             case "14":
                 JOptionPane.showMessageDialog(null,"Intern of sentence is : "+d.InternOfString(input));
+
+            case 8:
+                c.Encryptor(input);
+                break;
+            case 9:
+                d.SearcherFromString(input);
+                break;
+            case 10:
+                d.UpperCase(input);
+                break;
+            case 11:
+                d.LowerCase(input);
+                break;
+            case 12:
+                d.lengthOfString(input);
+                break;
+            case 13:
+                d.HashCodeOfString(input);
+                break;
+            case 14:
+                d.InternOfString(input);
+
                 break;
                
         }
