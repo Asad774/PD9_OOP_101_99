@@ -54,19 +54,7 @@ public class Driver {
                 JOptionPane.showMessageDialog(null,"Total Vowels in the Sentence : "+a.vowelcounter(input));
                 break;
             case "3":
-                 JOptionPane.showMessageDialog(null,"Total Punctuations in the Sentence : "+a.puncCount(input));
-
-            case 1:
-                int e=a.wordCounter(input);
-                JOptionPane.showMessageDialog(null,"There are "+e+" number of words","Number of words",1);
-                break;
-            case 2:
-                int f = a.vowelcounter(input);
-                JOptionPane.showMessageDialog(null,"There are "+f+" number of vowels","Number of vowels",1);
-                break;
-            case 3:
-                int g = a.puncCount(input);
-                JOptionPane.showMessageDialog(null,"There are "+g+" number of punctuations","Number of punctuations",1);
+                 JOptionPane.showMessageDialog(null,"Total Punctuations in the Sentence : "+a.puncCount(input));       
 
                 break;
             case "4":
@@ -114,29 +102,7 @@ public class Driver {
                 JOptionPane.showMessageDialog(null,"Hash Code of sentence is : "+d.HashCodeOfString(input));
                 break;
             case "14":
-                JOptionPane.showMessageDialog(null,"Intern of sentence is : "+d.InternOfString(input));
-
-            case 8:
-                c.Encryptor(input);
-                break;
-            case 9:
-                d.SearcherFromString(input);
-                break;
-            case 10:
-                d.UpperCase(input);
-                break;
-            case 11:
-                d.LowerCase(input);
-                break;
-            case 12:
-                d.lengthOfString(input);
-                break;
-            case 13:
-                d.HashCodeOfString(input);
-                break;
-            case 14:
-                d.InternOfString(input);
-
+                JOptionPane.showMessageDialog(null,"Intern of sentence is : "+d.InternOfString(input));            
                 break;
                
         }
