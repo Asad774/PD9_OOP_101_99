@@ -11,7 +11,11 @@ package mannual9;
  */
 public class Task1 {
     
-    
+ /**
+  * Counts the words in the String
+  * @param s
+  * @return 
+  */   
  public int wordCounter(String s)
 {
  int a=1;
@@ -25,7 +29,11 @@ public class Task1 {
  }
  return a;
 } 
- 
+ /**
+  *Counts the vowel in the string 
+  * @param s
+  * @return 
+  */
  public int vowelcounter(String s)
 {
   int a=0;
@@ -40,7 +48,11 @@ public class Task1 {
  return a;
  
 }
- 
+ /**
+  * Counts the puctuations used in String
+  * @param s
+  * @return 
+  */
 public int puncCount(String s)
 {
   int a=0;
@@ -55,7 +67,12 @@ public int puncCount(String s)
  return a;
  
 }
- 
+/**
+ * finds the Sub string in the String
+ * @param s
+ * @param sub
+ * @return Sub string of the String
+ */ 
  public boolean findSubString(String s, String sub)
 {
   boolean flag=false;

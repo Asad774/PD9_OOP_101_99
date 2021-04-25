@@ -12,7 +12,11 @@ package mannual9;
 public class Task3 {
  
     
-      
+  /**
+   * get rid of the extra spaces in the String
+   * @param s
+   * @return 
+   */    
   public String ridMultipleBlank(String s)
   {
     String [] tokens = s.split(" ");
@@ -36,7 +40,11 @@ public class Task3 {
     }
     return str;
   } 
-  
+  /**
+   * removes the integers in the String
+   * @param s
+   * @return the new String without integers
+   */
   public String removeInteger(String s)
   {
     int b=s.length();
@@ -54,6 +62,11 @@ public class Task3 {
     }
     return str;
   } 
+  /**
+   * Encrypts the Input string
+   * @param s
+   * @return the encrypted strings
+   */
    public static String Encryptor(String s){
         String NewString="";
         int size=s.length();
