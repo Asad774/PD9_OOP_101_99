@@ -17,7 +17,7 @@ public class Task4 {
      * @param s
      * @return wether the word u serched is in the string or not
      */
-       public static boolean SearcherFromString(String s){
+       public boolean SearcherFromString(String s){
            String input;
            boolean flag=true;
            input=JOptionPane.showInputDialog(null,"Enter any word to Search from the Sentence");
@@ -33,7 +33,7 @@ public class Task4 {
         * @param s
         * @return the string in upper cse
         */
-       public static String UpperCase(String s) {
+       public String UpperCase(String s) {
            String newString="";
            newString=s.toUpperCase();
            return newString;
@@ -43,7 +43,7 @@ public class Task4 {
         * @param s
         * @return the string in lower case
         */
-       public static String LowerCase(String s) {
+       public String LowerCase(String s) {
            String newString="";
            newString=s.toLowerCase();
            return newString;
@@ -53,7 +53,7 @@ public class Task4 {
         * @param s
         * @return length of the string
         */
-       public static int lengthOfString(String s){
+       public int lengthOfString(String s){
            int size=s.length();
            return size;
        }
@@ -62,7 +62,7 @@ public class Task4 {
         * @param s
         * @return the Hash code of the string
         */
-       public static int HashCodeOfString(String s){
+       public int HashCodeOfString(String s){
            int hashCode=s.hashCode();
            return hashCode;
        }
@@ -71,7 +71,7 @@ public class Task4 {
         * @param s
         * @return the intern of hte string
         */
-       public static String InternOfString(String s){
+       public String InternOfString(String s){
            String internofString=s.intern();
            return internofString;
        }

@@ -16,19 +16,18 @@ public class Task1 {
   * @param s
   * @return 
   */   
- public int wordCounter(String s)
-{
- int a=1;
-  int b=s.length();
- for(int i=0; i<b; i++)
- {
-   if(s.charAt(i)==' ')
-   {
-    a=a+1; 
-   }
- }
- return a;
-} 
+  public int Words_Counter(String s){
+       int Word_Count = 1;
+       int size=s.length();
+            for (int i = 0; i < size ; i++) 
+            {
+                if (s.charAt(i) == ' ') 
+                {
+                    Word_Count++;
+                } 
+            }
+            return Word_Count;
+    }
  /**
   *Counts the vowel in the string 
   * @param s
