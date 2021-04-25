@@ -15,15 +15,15 @@ public class Task2 {
      * no return type as function is void
      * @param s 
      */
-        void VerticleStringDisplayer(String s){
-        char ch_a[]=s.toCharArray();
-        int size=ch_a.length;
-        for(int i=0;i<size;i++){
-            System.out.print(ch_a[i]+"\n");
-        }
-        }
-        
-        
+//        void VerticleStringDisplayer(String s){
+//        char ch_a[]=s.toCharArray();
+//        int size=ch_a.length;
+//        for(int i=0;i<size;i++){
+//            System.out.print(ch_a[i]+"\n");
+//        }
+//        }
+//        
+//        
         
         public void displayVertical(String s)
   {
