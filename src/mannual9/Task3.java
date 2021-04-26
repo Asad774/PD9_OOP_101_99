@@ -67,7 +67,7 @@ public class Task3 {
    * @param s
    * @return the encrypted strings
    */
-   public static String Encryptor(String s){
+   public String Encryptor(String s){
         String NewString="";
         int size=s.length();
         for(int i=0;i<size;i++){

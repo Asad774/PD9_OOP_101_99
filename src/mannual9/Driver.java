@@ -44,17 +44,28 @@ public class Driver {
         switch(converted)
         {
             case 1:
-                a.wordCounter(input);
+                int e=a.wordCounter(input);
+                JOptionPane.showMessageDialog(null,"There are "+e+" number of words","Number of words",1);
                 break;
             case 2:
-                a.vowelcounter(input);
+                int f = a.vowelcounter(input);
+                JOptionPane.showMessageDialog(null,"There are "+f+" number of vowels","Number of vowels",1);
                 break;
             case 3:
-                a.puncCount(input);
+                int g = a.puncCount(input);
+                JOptionPane.showMessageDialog(null,"There are "+g+" number of punctuations","Number of punctuations",1);
                 break;
             case 4:
                 String sub = JOptionPane.showInputDialog("Enter the sub String:");
-                a.findSubString(input, sub);
+                boolean h = a.findSubString(input, sub);
+                if(h==true)
+                {
+                      JOptionPane.showMessageDialog(null,"\""+sub+"\""+" is present in the String.","Finding",1);
+                }
+                else
+                {
+                      JOptionPane.showMessageDialog(null,"\""+sub+"\""+" is nt present in the String.","Finding",1);
+                }
                 break;
             case 5:
                 b.displayVertical(input);
@@ -66,25 +77,25 @@ public class Driver {
                 c.removeInteger(input);
                 break;
             case 8:
-                
+                c.Encryptor(input);
                 break;
             case 9:
-                
+                d.SearcherFromString(input);
                 break;
             case 10:
-                
+                d.UpperCase(input);
                 break;
             case 11:
-                
+                d.LowerCase(input);
                 break;
             case 12:
-                
+                d.lengthOfString(input);
                 break;
             case 13:
-                
+                d.HashCodeOfString(input);
                 break;
             case 14:
-                
+                d.InternOfString(input);
                 break;
             case 15:
                 
