@@ -22,4 +22,23 @@ public class Task2 {
             System.out.print(ch_a[i]+"\n");
         }
         }
+        
+        
+        
+        public void displayVertical(String s)
+  {
+    int b=s.length(); 
+    System.out.println("Your sentence printed vertically is:");
+    for(int i=0; i<b; i++)
+    {
+     if(s.charAt(i)!=' ')
+     {
+      System.out.println(s.charAt(i)); 
+     }
+     
+    }
+    
+  }
+        
+        
 }

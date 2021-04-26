@@ -26,7 +26,7 @@ public class Task1 {
  return a;
 } 
  
- static int vowelcounter(String s)
+ public int vowelcounter(String s)
 {
   int a=0;
   int b=s.length();
@@ -38,9 +38,10 @@ public class Task1 {
    }
  }
  return a;
+ 
 }
  
- static int puncCount(String s)
+public int puncCount(String s)
 {
   int a=0;
   int b=s.length();
@@ -55,7 +56,7 @@ public class Task1 {
  
 }
  
- static boolean findSubString(String s, String sub)
+ public boolean findSubString(String s, String sub)
 {
   boolean flag=false;
   int b=s.length();
